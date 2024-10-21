@@ -1,0 +1,1142 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.17f1 (4fc78088f837) revision 5228416'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 16053 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+E:/New folder/Mookratha
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+51279
+Successfully changed project path to: E:/New folder/Mookratha
+E:/New folder/Mookratha
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25992] Host "[IP] 10.66.138.156 [Port] 0 [Flags] 2 [Guid] 3549287740 [EditorId] 3549287740 [Version] 1048832 [Id] WindowsEditor(7,403-42) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25992] Host "[IP] 10.66.138.156 [Port] 0 [Flags] 2 [Guid] 3549287740 [EditorId] 3549287740 [Version] 1048832 [Id] WindowsEditor(7,403-42) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 151.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1 (4fc78088f837)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/New folder/Mookratha/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.15.5612
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006017 seconds.
+- Loaded All Assemblies, in  0.305 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.239 seconds
+Domain Reload Profiling: 543ms
+	BeginReloadAssembly (122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (102ms)
+		LoadAssemblies (121ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (99ms)
+			TypeCache.Refresh (98ms)
+				TypeCache.ScanAssembly (88ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (240ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (193ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (115ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.873 seconds
+Refreshing native plugins compatible for Editor in 28.18 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.117 seconds
+Domain Reload Profiling: 4969ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (235ms)
+	LoadAllAssembliesAndSetupDomain (3437ms)
+		LoadAssemblies (3324ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (172ms)
+				TypeCache.ScanAssembly (157ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1118ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (984ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (857ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 3.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5848 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 96 unused Assets / (1.1 MB). Loaded Objects now: 6321.
+Memory consumption went from 311.8 MB to 310.8 MB.
+Total: 10.375000 ms (FindLiveObjects: 0.355500 ms CreateObjectMapping: 0.257200 ms MarkObjects: 9.408700 ms  DeleteObjects: 0.351100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 482823.475372 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke second color ab.mat
+  artifactKey: Guid(869742a199537664ea313c65dc8525cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke second color ab.mat using Guid(869742a199537664ea313c65dc8525cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c85e3e1fc61bc7a65b4056afd1a83cc') in 0.390236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Scripts/Player/PlayerStates/SupStates/PlayerDashState.cs
+  artifactKey: Guid(758e570b59478b64cae4e417b58d6db6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Player/PlayerStates/SupStates/PlayerDashState.cs using Guid(758e570b59478b64cae4e417b58d6db6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1ed0c23a828ca2ee10d79c099406a32') in 0.057138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire small anim hdr ab.mat
+  artifactKey: Guid(ae1cda08a7621e649acb7738ffb73620) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire small anim hdr ab.mat using Guid(ae1cda08a7621e649acb7738ffb73620) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '326de200a68da93df04766bdeb237f64') in 0.262966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat
+  artifactKey: Guid(a00013af81304728b2be1f4309ee2433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat using Guid(a00013af81304728b2be1f4309ee2433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '183232348cd860366e2772ff1ad4c224') in 0.061719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
+  artifactKey: Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat using Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '27522bf5a47a86ba18a614cd11712f92') in 0.122367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat
+  artifactKey: Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat using Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '810b5b6371022e2a4937e2d0198c5b28') in 0.106030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI/PlayerUI/ตาว/mookrata/eww.psd
+  artifactKey: Guid(f74062757169a594dbbc2163cd8c5b68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/PlayerUI/ตาว/mookrata/eww.psd using Guid(f74062757169a594dbbc2163cd8c5b68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bfc7e5a98b239696b8a690765c81a2d') in 0.156077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset
+  artifactKey: Guid(14aa93acbb234d16aaef0e8b46814db6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset using Guid(14aa93acbb234d16aaef0e8b46814db6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a434c1ae871e2728c6c253b4f30ed0f') in 0.177723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7da7dd2743e05c4c0542f30d6516648') in 0.115123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh donut.fbx
+  artifactKey: Guid(5d48695472dfda94b92ac5316397da95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh donut.fbx using Guid(5d48695472dfda94b92ac5316397da95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8fa55684c3a597ed83a26fe9b95e4ab') in 0.203373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/UI/PlayerUI/แก้ไข/Orange/กิน .png
+  artifactKey: Guid(4b79484dcb2a57b47852acca9a7042d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/PlayerUI/แก้ไข/Orange/กิน .png using Guid(4b79484dcb2a57b47852acca9a7042d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c60c267b7950378b3682aa6125749ed6') in 0.562228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/prefabs/chair/chairBeige.prefab
+  artifactKey: Guid(c445c130e24ffd1c5a9e31a642d9bf5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/prefabs/chair/chairBeige.prefab using Guid(c445c130e24ffd1c5a9e31a642d9bf5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90e85d0b3cbd2f81e3698c9204d4f681') in 0.266554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/prefabs/chair/twoHorizontalbackrestChair.prefab
+  artifactKey: Guid(6dadfe2494a9016a083b6c970750a4f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/prefabs/chair/twoHorizontalbackrestChair.prefab using Guid(6dadfe2494a9016a083b6c970750a4f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a16b0d31db0268339ade8f462fdaa60') in 0.129874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/UI/PlayerUI/ตาว/mookrata/hungry.psd
+  artifactKey: Guid(01749659a5b5ae44db7f69b022f0c11b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/PlayerUI/ตาว/mookrata/hungry.psd using Guid(01749659a5b5ae44db7f69b022f0c11b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5344da6b1dde8fd440798f0872ecf399') in 0.301215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UI/PlayerUI/แก้ไข/Puple/ดีใจ.PNG
+  artifactKey: Guid(94274f248d0c1a9439d2045f9a04faa7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/PlayerUI/แก้ไข/Puple/ดีใจ.PNG using Guid(94274f248d0c1a9439d2045f9a04faa7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65c945f49c9a6e1d6f223342667bcdb9') in 0.299311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/prefabs/plants/bambooPot.prefab
+  artifactKey: Guid(ef0f239c5d3df56399b126c6eb0c101c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/prefabs/plants/bambooPot.prefab using Guid(ef0f239c5d3df56399b126c6eb0c101c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5860d2a6269e79128825982aa5b63dec') in 0.129996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/prefabs/decor/decorBaseWithCandle.prefab
+  artifactKey: Guid(6f7317012674f08b1953df527f2ac20b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/prefabs/decor/decorBaseWithCandle.prefab using Guid(6f7317012674f08b1953df527f2ac20b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f72c0e5a102364527ccbb19c6d8860f7') in 0.206988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/prefabs/tableCenter/hexagonalPlatter.prefab
+  artifactKey: Guid(ac3175b5f6c69065cbb8294a275b0fe3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/prefabs/tableCenter/hexagonalPlatter.prefab using Guid(ac3175b5f6c69065cbb8294a275b0fe3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa804de3bccd95970cdcbe535bcba92f') in 0.157861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/prefabs/table/circleTable.prefab
+  artifactKey: Guid(80fc00d825bc94bdabad193049acc262) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/prefabs/table/circleTable.prefab using Guid(80fc00d825bc94bdabad193049acc262) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '154840a96d0504f6717c2a4a357f2df1') in 0.091456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI/PlayerUI/ตาว/mookrata/hungry.png
+  artifactKey: Guid(317bd731057e14c469b7371b439a8a8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/PlayerUI/ตาว/mookrata/hungry.png using Guid(317bd731057e14c469b7371b439a8a8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35ba7f582294f01cf998e9aa12e8c25d') in 0.129559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Glass/Glass1/Glass1_LOD_1.fbx
+  artifactKey: Guid(248eeb806c9669c48a38fbbeca7f1c3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Glass/Glass1/Glass1_LOD_1.fbx using Guid(248eeb806c9669c48a38fbbeca7f1c3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3cb7efb905202270bddfe72ca7957120') in 0.069635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Glass/Glass3/Glass3_LOD_0.fbx
+  artifactKey: Guid(4747e3892db704144928f3b846f5119c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Glass/Glass3/Glass3_LOD_0.fbx using Guid(4747e3892db704144928f3b846f5119c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'efd7544942e28c3424e8f7ac5e76b563') in 0.047801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Glass/Glass2/Glass2_LOD_0.fbx
+  artifactKey: Guid(d7c17547d0cf41b489b058f454c00021) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Glass/Glass2/Glass2_LOD_0.fbx using Guid(d7c17547d0cf41b489b058f454c00021) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4611b5adcf229dc2b313bac023b32aa9') in 0.126590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Glass/Glass1/Liquid.fbx
+  artifactKey: Guid(df2a5e0eae2283e4f914d86762e73480) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Glass/Glass1/Liquid.fbx using Guid(df2a5e0eae2283e4f914d86762e73480) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62a1890c5e3315e885859ad4e2666ae0') in 0.173468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UI/PlayerUI/แก้ไข/Green/เคี้ยว.PNG
+  artifactKey: Guid(672a38359a88cc442a88c405fe3596fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/PlayerUI/แก้ไข/Green/เคี้ยว.PNG using Guid(672a38359a88cc442a88c405fe3596fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5b03cad2c766d1cbe75d9543019f20b') in 0.235577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Glass/Glass8/Glass8_LOD_0.fbx
+  artifactKey: Guid(ba75917557844fb408f24c330057bb49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Glass/Glass8/Glass8_LOD_0.fbx using Guid(ba75917557844fb408f24c330057bb49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd592487c7e4efabd0878e98fb548b757') in 0.067224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Glass/Glass6/Liquid.fbx
+  artifactKey: Guid(e68143715ee136e4e98d27fafa5c3b09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Glass/Glass6/Liquid.fbx using Guid(e68143715ee136e4e98d27fafa5c3b09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8382784ef2add357c3f33a0307128dc') in 0.082900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Glass/Glass3/Liquid.fbx
+  artifactKey: Guid(dadc2d71511e91c49a1491924d6abc93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Glass/Glass3/Liquid.fbx using Guid(dadc2d71511e91c49a1491924d6abc93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb993b0fc160e55917634ad91ff16b74') in 0.120790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Pottery/11/Pottery11_LOD_0.fbx
+  artifactKey: Guid(3db178f537147d849b4fe6cd585483d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Pottery/11/Pottery11_LOD_0.fbx using Guid(3db178f537147d849b4fe6cd585483d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68cef3625ab951a001a745a7e6f8c6ce') in 0.142444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Pottery/1/Pottery_LOD_1.fbx
+  artifactKey: Guid(ae1d278dedc40e44dbca3de4ecce1cd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Pottery/1/Pottery_LOD_1.fbx using Guid(ae1d278dedc40e44dbca3de4ecce1cd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '15cac8eb6a7f670c758281ab5df3e981') in 0.154238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Glass/Glass8/YellowWater 1.mat
+  artifactKey: Guid(a95cf39ca91cf9f4fb955b2c293d9018) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Glass/Glass8/YellowWater 1.mat using Guid(a95cf39ca91cf9f4fb955b2c293d9018) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '076b4b56c654ff1d7965f197756650d6') in 0.045234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Glass/Glass8/Liquid.fbx
+  artifactKey: Guid(1c6ffa4b7765c174cafeb70bffbb6773) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Glass/Glass8/Liquid.fbx using Guid(1c6ffa4b7765c174cafeb70bffbb6773) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ae07e97416d8f0eecd8ba95831e8e07') in 0.062753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ghost trail.png
+  artifactKey: Guid(04e3293bfc8a48745964aeac5aa64a6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ghost trail.png using Guid(04e3293bfc8a48745964aeac5aa64a6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ba4b298e0b1c5671a588075981cd25c') in 0.113287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Pottery/6/Pottery6_LOD_1.fbx
+  artifactKey: Guid(90c684b9426e8b94d866d39a8998fcdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Pottery/6/Pottery6_LOD_1.fbx using Guid(90c684b9426e8b94d866d39a8998fcdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9ae5248b8260687ffccda07c3dcc0b9') in 0.212174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Pottery/7/Pottery7_LOD_2.fbx
+  artifactKey: Guid(80b773eff735b22418e41eb9fca82be6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Pottery/7/Pottery7_LOD_2.fbx using Guid(80b773eff735b22418e41eb9fca82be6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77616120da80c3c967fa6c0e9ed8e206') in 0.104775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Pottery/2/Pottery2_LOD_0_lambert2_MetallicSmoothness.png
+  artifactKey: Guid(52730a9d82107bd449e6f293c8baa792) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Pottery/2/Pottery2_LOD_0_lambert2_MetallicSmoothness.png using Guid(52730a9d82107bd449e6f293c8baa792) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8d3b5c382ef8ac49def146514786f33') in 0.178593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Pottery/3/Pottery3_LOD_2.fbx
+  artifactKey: Guid(e1100a78ecbe3a745b6b5ae923b635ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Pottery/3/Pottery3_LOD_2.fbx using Guid(e1100a78ecbe3a745b6b5ae923b635ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2041a3dbf86735b025823dd176c94c1') in 0.161854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Pottery/2/Pottery2_LOD_0_lambert2_AlbedoTransparency 1.png
+  artifactKey: Guid(30f590aa9de2d994ca3be53fb164c8ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Pottery/2/Pottery2_LOD_0_lambert2_AlbedoTransparency 1.png using Guid(30f590aa9de2d994ca3be53fb164c8ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '626b2045de6d291d8bb2ced2072813e4') in 0.239155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris ice 2x2 ab lit.mat
+  artifactKey: Guid(d7db40b0f0e0ac045b7b14e8f37ade3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris ice 2x2 ab lit.mat using Guid(d7db40b0f0e0ac045b7b14e8f37ade3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0edb451676e43c0ba36eb402b1d94185') in 0.200069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Materials/Symbols/CFX2_HeartBrokenSlice.mat
+  artifactKey: Guid(6573156ff7aedbe49b6d60c015d0a67a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Materials/Symbols/CFX2_HeartBrokenSlice.mat using Guid(6573156ff7aedbe49b6d60c015d0a67a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4659902ac36951e8f598ef877003709e') in 0.155452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp mid fine hdr ab.mat
+  artifactKey: Guid(d8a21f1c09eaf4d40a9e977784629cfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp mid fine hdr ab.mat using Guid(d8a21f1c09eaf4d40a9e977784629cfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac811fa4adacf30a766b741a36f59553') in 0.103791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait blur add.mat
+  artifactKey: Guid(2175ac793e235894da12a78ea274cb1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait blur add.mat using Guid(2175ac793e235894da12a78ea274cb1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1530ba4039ea63bc69d975b477c0cf4f') in 0.101132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 dissolve.png
+  artifactKey: Guid(c1819aef53deedf40af80257ccb5b1a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 dissolve.png using Guid(c1819aef53deedf40af80257ccb5b1a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02dc0fffd571800c36134c10bea0eff8') in 0.084611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Ripples.prefab
+  artifactKey: Guid(5a8d99fb95262ea458a7b580f2a1611c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Ripples.prefab using Guid(5a8d99fb95262ea458a7b580f2a1611c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '588229094279fb8188795e3255680fae') in 0.066781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arc anim x4.png
+  artifactKey: Guid(0badb2586ed1fe64db1a9fc0e2776e10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arc anim x4.png using Guid(0badb2586ed1fe64db1a9fc0e2776e10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a29769fd567ad853878c041c61ad19d5') in 0.135772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Mookrata/Character/Woman/EwwWoman.wav
+  artifactKey: Guid(142379795b74d884698fa62148241b21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Mookrata/Character/Woman/EwwWoman.wav using Guid(142379795b74d884698fa62148241b21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56dc82635f6c319b9da7f34354a1683a') in 0.277160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000846 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flare.png
+  artifactKey: Guid(b4c058e0744fa8b4f89db9d3171f4eb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flare.png using Guid(b4c058e0744fa8b4f89db9d3171f4eb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f6ef9e03a4c959fc786930e35ab345b8') in 0.155224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000975 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CartoonFX Free.txt
+  artifactKey: Guid(527aaa921d8e3794ca7096e0b98a041a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CartoonFX Free.txt using Guid(527aaa921d8e3794ca7096e0b98a041a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7100f0b9b8c1b057d1d7fe699f5d1375') in 0.136472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Scenes/Mookrata/Character/Woman/MmmWoman.wav
+  artifactKey: Guid(f12fbf4515ae05d4d9e2fd67d4c3ea24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Mookrata/Character/Woman/MmmWoman.wav using Guid(f12fbf4515ae05d4d9e2fd67d4c3ea24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd48e6cc992ab60b52e2e08dd356985ae') in 0.116914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Mookrata/FX/Cha-Ching.wav
+  artifactKey: Guid(4d0991d9ed13e334eb910ae33a90ab46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Mookrata/FX/Cha-Ching.wav using Guid(4d0991d9ed13e334eb910ae33a90ab46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd65439d3e34a4867ce96d77f6876046') in 0.113896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/greenchang.mat
+  artifactKey: Guid(5387ef7c3a366d04e8e1aae27d5b83ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/greenchang.mat using Guid(5387ef7c3a366d04e8e1aae27d5b83ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60617b2bdd58fdbc40edf1c90bac1afd') in 0.152400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UI_ECIG/IMG_2073.png
+  artifactKey: Guid(129aebf66d22cbf4ca9792456c8456c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI_ECIG/IMG_2073.png using Guid(129aebf66d22cbf4ca9792456c8456c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59090ef0fa1a2356e3fff120d4080d31') in 0.409896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Model/Materials/Pan.obj
+  artifactKey: Guid(b148e71d33417be40bf1c5e72b659f61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Model/Materials/Pan.obj using Guid(b148e71d33417be40bf1c5e72b659f61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d3ae761537c0c782f00833e842ac029') in 0.129311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.509811 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Pottery/9/Pottery9_LOD_1.fbx
+  artifactKey: Guid(63ca039bf594f0a4f9d77707779f1594) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Pottery/9/Pottery9_LOD_1.fbx using Guid(63ca039bf594f0a4f9d77707779f1594) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0f660b49f5afa8d6db8eaa58f2900ee') in 3.846758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Pottery/1/Potte1/Pottery_LOD_0_lambert1_SpecularSmoothness.png
+  artifactKey: Guid(a1f418ea17c53674fbc9ad1fe72c7471) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Pottery/1/Potte1/Pottery_LOD_0_lambert1_SpecularSmoothness.png using Guid(a1f418ea17c53674fbc9ad1fe72c7471) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd71dd977b65071aa52c0354febd76891') in 0.401333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/animation/male/m_pistol_idle_A.FBX
+  artifactKey: Guid(4610f50e76a89c744b9ad9b0569f5503) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/animation/male/m_pistol_idle_A.FBX using Guid(4610f50e76a89c744b9ad9b0569f5503) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '609a1d743c1f33272d50fc2af32343d5') in 0.264513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Prefabs/Food/Vape/vape-015-obj/textures/vape-015_metalness-metalness-4k.png
+  artifactKey: Guid(7fc1c362575fb404fb6592566cf7bb7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Food/Vape/vape-015-obj/textures/vape-015_metalness-metalness-4k.png using Guid(7fc1c362575fb404fb6592566cf7bb7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '15676fd3113e94ab70456f95d10a64cf') in 1.143725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Pottery/8/Materials/lambert1.mat
+  artifactKey: Guid(7ba48d784e4d3ed4088563316d76012d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Pottery/8/Materials/lambert1.mat using Guid(7ba48d784e4d3ed4088563316d76012d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a271c6837d5bced8f0b4a65eac84f63') in 3.832695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/chair/chairBeige/editableMaterial/basechairMaterial.mat
+  artifactKey: Guid(dac21720b2fb91e62b76558875f81ea6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/chair/chairBeige/editableMaterial/basechairMaterial.mat using Guid(dac21720b2fb91e62b76558875f81ea6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c2979e2134691dea14948428cecacd35') in 0.208555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/lamps/cylinderLamp/cylinderLamps.fbx
+  artifactKey: Guid(39e4e67a49bf21d769b7494b5c205a41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/lamps/cylinderLamp/cylinderLamps.fbx using Guid(39e4e67a49bf21d769b7494b5c205a41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c89205bca6e14620ff0d452edb81f2d0') in 0.353229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/plants/redTree/redTree.fbx
+  artifactKey: Guid(d0f1ec8c436428436b6d974d32da1ea6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/plants/redTree/redTree.fbx using Guid(d0f1ec8c436428436b6d974d32da1ea6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '73c39af6a1a395f698138e4de4e6c0a9') in 0.211231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Pottery/2/Materials/Pottery2_LOD_0_lambert2_AlbedoTransparency.mat
+  artifactKey: Guid(d30c68e105c7dd94eaba4963c106a8bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Pottery/2/Materials/Pottery2_LOD_0_lambert2_AlbedoTransparency.mat using Guid(d30c68e105c7dd94eaba4963c106a8bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84afb617bdd5e0221c8b2bb7b57e7468') in 0.131777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Glass/Glass8/Materials/Glass.mat
+  artifactKey: Guid(8171e598cce0a1140af633b437350333) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Glass/Glass8/Materials/Glass.mat using Guid(8171e598cce0a1140af633b437350333) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad240951696f43ba3da3123450f0294e') in 0.095968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/chair/twoHorizontalbackrestChair/editableMaterial/woodChairMaterial.mat
+  artifactKey: Guid(0a586c2787486679ca989b5c457d4fa5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/chair/twoHorizontalbackrestChair/editableMaterial/woodChairMaterial.mat using Guid(0a586c2787486679ca989b5c457d4fa5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87ef3f7157b4b30b6ccf5a02e640b1fd') in 0.117114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/Food/Vape/vape-015-obj/Materials/vape-015_specurlar-specular-4k.mat
+  artifactKey: Guid(3a1b66b7af00a61498634f01808ba471) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Food/Vape/vape-015-obj/Materials/vape-015_specurlar-specular-4k.mat using Guid(3a1b66b7af00a61498634f01808ba471) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28b1d776d20c210272fac4ad82daed2c') in 0.118405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/lamps/wireframeLamps/editableMaterial/bulbProtectorMaterial.mat
+  artifactKey: Guid(e92b17819588cd073bf11e06bf42de5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/lamps/wireframeLamps/editableMaterial/bulbProtectorMaterial.mat using Guid(e92b17819588cd073bf11e06bf42de5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58446d357182c7aafda8cb536a7f082c') in 0.064143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/lamps/coneLamps/editableMaterial/bulbMaterial.002.mat
+  artifactKey: Guid(a7912e2e7f7b0cb2f9c3d90390f48afa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/lamps/coneLamps/editableMaterial/bulbMaterial.002.mat using Guid(a7912e2e7f7b0cb2f9c3d90390f48afa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa5f2b073950f92861ab98153fd3b56a') in 0.085651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/animation/female/f_melee_combat_run_rm.FBX
+  artifactKey: Guid(641465eb3410ef94da689add127b6eaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/animation/female/f_melee_combat_run_rm.FBX using Guid(641465eb3410ef94da689add127b6eaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '504a3ac40ba902472418124f6ad7fc40') in 0.183782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Glass/Glass1/Materials/lambertGreen.mat
+  artifactKey: Guid(b8583054ded0f01458cc8fb13131e677) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Glass/Glass1/Materials/lambertGreen.mat using Guid(b8583054ded0f01458cc8fb13131e677) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59e0a1d493963ae840bd87c103a70dac') in 0.129987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/plants/plantPot/editableMaterial/leavesMaterial.002.mat
+  artifactKey: Guid(4baba576d711ef4b8849fa9bd4e86922) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/plants/plantPot/editableMaterial/leavesMaterial.002.mat using Guid(4baba576d711ef4b8849fa9bd4e86922) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b02efbcc9f9e6d94d55cb5aaec94a40') in 0.078962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/chair/twoHorizontalbackrestChair/editableMaterial/baseChairMaterial.001.mat
+  artifactKey: Guid(7f460a625817bb67583712d67b9575c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/chair/twoHorizontalbackrestChair/editableMaterial/baseChairMaterial.001.mat using Guid(7f460a625817bb67583712d67b9575c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e3f0dd1c8765423ac4860c8af6663fa7') in 0.113262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/plants/redTree/editableMaterial/redLeavesMarerial.mat
+  artifactKey: Guid(1098cf3dad238f56f8fc891972bd5c0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/plants/redTree/editableMaterial/redLeavesMarerial.mat using Guid(1098cf3dad238f56f8fc891972bd5c0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '258b81d082c4587a4abecbe1a9e5680f') in 0.103352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/models/Materials/TT_demo.mat
+  artifactKey: Guid(87dac164c1ca4ab4395461ac4753fe2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/models/Materials/TT_demo.mat using Guid(87dac164c1ca4ab4395461ac4753fe2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '033f3daa07757742d7cb4be673655ce8') in 0.095832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/animation/male/m_melee_combat_run.FBX
+  artifactKey: Guid(80a5118b2108acc4ea8b64002dd1a071) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/animation/male/m_melee_combat_run.FBX using Guid(80a5118b2108acc4ea8b64002dd1a071) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09f720a2b40a4d170f29effb33338351') in 0.082029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/tableCenter/hexagonalPlatter/editableMaterial/hexagonalpPlatterMaterial.mat
+  artifactKey: Guid(be4f387e307e9fa5db6f42b8d0108ca6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/tableCenter/hexagonalPlatter/editableMaterial/hexagonalpPlatterMaterial.mat using Guid(be4f387e307e9fa5db6f42b8d0108ca6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f038fa800c304cab3fa6f7e5ed60b3ea') in 0.090560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/tableCenter/goldenSphere/editableMaterial/geodesicSphereMaterial.mat
+  artifactKey: Guid(b1c8b0398d1ad8f8a917522f3c2270cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/tableCenter/goldenSphere/editableMaterial/geodesicSphereMaterial.mat using Guid(b1c8b0398d1ad8f8a917522f3c2270cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '264fd3c274e65d887e8202d41ded056a') in 0.070761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/tables/cylinderTable/editableMaterial/bodyMaterial.001.mat
+  artifactKey: Guid(54ba146f18259654c9c2010878bf241d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/tables/cylinderTable/editableMaterial/bodyMaterial.001.mat using Guid(54ba146f18259654c9c2010878bf241d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86dcb31d14487d0139aaddce8df50bad') in 0.114084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/chair/chairBeige/chairBeige.fbx
+  artifactKey: Guid(ed64eb9a0672aabe0bb601171dea2cb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/chair/chairBeige/chairBeige.fbx using Guid(ed64eb9a0672aabe0bb601171dea2cb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '397564c7764281a917163f4d72fdaff5') in 0.109279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Shader/Bloom.cginc
+  artifactKey: Guid(1b8325918052c4c5492831d116e3ed27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Shader/Bloom.cginc using Guid(1b8325918052c4c5492831d116e3ed27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83b0e54b23dbb4e3ac34853d8cc7b348') in 0.047203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/tableCenter/candlestick/editableMaterial/candlestickMaterial.mat
+  artifactKey: Guid(143a449f772be35599f036defd840a1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/tableCenter/candlestick/editableMaterial/candlestickMaterial.mat using Guid(143a449f772be35599f036defd840a1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad4e78494ed279723a72c0ee4fe0cbd3') in 0.167251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/tableCenter/bottles/bottles.fbx
+  artifactKey: Guid(387b95ec73bbacb1fbffa18b68953204) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/tableCenter/bottles/bottles.fbx using Guid(387b95ec73bbacb1fbffa18b68953204) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '49c74575971877ea896bead69e136eb1') in 0.201629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/Food/Vape/vape-015-obj/textures/vape-015_gloss-specular-4k.png
+  artifactKey: Guid(0443278dbb6a9834f8c5a0617b9ebc4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Food/Vape/vape-015-obj/textures/vape-015_gloss-specular-4k.png using Guid(0443278dbb6a9834f8c5a0617b9ebc4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e2ee220b4d95729d160a6a72f8cded1') in 0.188685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Food/Vape/vape-015-obj/textures/vape-015_roughness-metalness-4k.png
+  artifactKey: Guid(6287d61d11c984c46adf786bccb19f6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Food/Vape/vape-015-obj/textures/vape-015_roughness-metalness-4k.png using Guid(6287d61d11c984c46adf786bccb19f6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ded6ca72bb224ca3319b7d862e16384') in 0.259079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/decor/tableware/editableMaterials/tablewareMaterial.mat
+  artifactKey: Guid(fa165d762017c7793b8687608345b3b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/decor/tableware/editableMaterials/tablewareMaterial.mat using Guid(fa165d762017c7793b8687608345b3b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5805f8ac681f13a238a02913568ec00') in 0.087048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Model/Food/Pork/Burn/Materials/3 ชิ้น ไหม้.mat
+  artifactKey: Guid(676b125934551334290fdd6556fdfe1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Model/Food/Pork/Burn/Materials/3 ชิ้น ไหม้.mat using Guid(676b125934551334290fdd6556fdfe1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4be9e9b40e23bb5c3a9b3a918f7cea54') in 0.151493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/plants/bambooPot/bambooPot.fbx
+  artifactKey: Guid(aa6beb17833ec9034beca7cf943c3c36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/plants/bambooPot/bambooPot.fbx using Guid(aa6beb17833ec9034beca7cf943c3c36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a6170eab986ed4b12d7d2f8df0068a0') in 0.142138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/decor/saltShaker/editableMaterials/metalPartMaterial.mat
+  artifactKey: Guid(4043e696b7390309281e2eebaa97ca34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/decor/saltShaker/editableMaterials/metalPartMaterial.mat using Guid(4043e696b7390309281e2eebaa97ca34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '73e2d60a63b95d466b065e478e441942') in 0.067948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/tableCenter/pot/pot.fbx
+  artifactKey: Guid(7474f3f6e973c22068e17d92ae6cb32c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/tableCenter/pot/pot.fbx using Guid(7474f3f6e973c22068e17d92ae6cb32c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66b9ea06f2f13c0932b4094ed85ed551') in 0.156506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/plants/bambooPot/editableMaterial/potMaterial.mat
+  artifactKey: Guid(802470fdc4a14d3599ba613e08247479) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/plants/bambooPot/editableMaterial/potMaterial.mat using Guid(802470fdc4a14d3599ba613e08247479) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b46c47d8c737f87ab6c93d125ba2b8cd') in 0.092984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/tables/cylinderTable/cylinderTable.fbx
+  artifactKey: Guid(e7c426cc2ae1d8e95b37885273256b63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/tables/cylinderTable/cylinderTable.fbx using Guid(e7c426cc2ae1d8e95b37885273256b63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26f6ea525991df6c9684c35978be39bc') in 0.163565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/tableCenter/candlestick/editableMaterial/wickMaterial.mat
+  artifactKey: Guid(fd8888e90427499c39e3d4aa46eb9b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/tableCenter/candlestick/editableMaterial/wickMaterial.mat using Guid(fd8888e90427499c39e3d4aa46eb9b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72e096e499eb275b924d89ed5842a784') in 0.089621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Glass/Glass6/Materials/lambert1.mat
+  artifactKey: Guid(00fddfbc4ff4edd4988263688ad55091) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Glass/Glass6/Materials/lambert1.mat using Guid(00fddfbc4ff4edd4988263688ad55091) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7dd6cf67fa8240549086dd9de9c38236') in 0.095517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/animation/male/m_death_A.FBX
+  artifactKey: Guid(f384b5cff18b36645b0a1dc7494599c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/animation/male/m_death_A.FBX using Guid(f384b5cff18b36645b0a1dc7494599c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da67632a3c6b61e5b185c3a47e53710d') in 0.150020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Glass/Glass8/Materials/lambert1.mat
+  artifactKey: Guid(80d2ca6c82b8ccd4a95e579dd6fe1957) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Glass/Glass8/Materials/lambert1.mat using Guid(80d2ca6c82b8ccd4a95e579dd6fe1957) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd823a73deab9bd3b7c7094b3adc2556') in 0.078958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/chair/verticalBackrestChair/editableMaterial/baseChairMaterial.003.mat
+  artifactKey: Guid(31fa1f36e61df29f792e9b540a047657) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/chair/verticalBackrestChair/editableMaterial/baseChairMaterial.003.mat using Guid(31fa1f36e61df29f792e9b540a047657) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '687783f53808a80df6cd0824841eb5a2') in 0.161512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/decor/decorBaseWithCandle/editableMaterials/spheresMaterial.mat
+  artifactKey: Guid(e370008171cca2fbd990449b7de21297) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/decor/decorBaseWithCandle/editableMaterials/spheresMaterial.mat using Guid(e370008171cca2fbd990449b7de21297) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '736a11efd1dc319e0a24d44e54bfe6fb') in 0.108045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/animation/male/m_melee_combat_run_rm.FBX
+  artifactKey: Guid(7bb45f9816712bf4e918c23e6da5b8fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/animation/male/m_melee_combat_run_rm.FBX using Guid(7bb45f9816712bf4e918c23e6da5b8fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7dbe23f1a59492f09f30cd9ee34b373') in 0.077815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/animation/female/f_run.FBX
+  artifactKey: Guid(b2ef17cd2f8ef3940afa7a3aa202c5da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/animation/female/f_run.FBX using Guid(b2ef17cd2f8ef3940afa7a3aa202c5da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b98debcabe5b240041ab87d4c74e995') in 0.285735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AssetsStore/GlassPack/Models/Glass/Glass5/Materials/Glass.mat
+  artifactKey: Guid(1b11632fee87f254a89be8bc21199e88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/GlassPack/Models/Glass/Glass5/Materials/Glass.mat using Guid(1b11632fee87f254a89be8bc21199e88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa1c95e1c60f8011e0bc4edde2e7317f') in 0.166040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/tables/joinedLegsTable/editableMaterial/woodTableMaterial.001.mat
+  artifactKey: Guid(426744bdee9c905d5a8ded472713b54f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/tables/joinedLegsTable/editableMaterial/woodTableMaterial.001.mat using Guid(426744bdee9c905d5a8ded472713b54f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26f646a5bf1454b1b55d068844c67158') in 0.094092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/plants/redTree/editableMaterial/grassMaterial.001.mat
+  artifactKey: Guid(d60f0f5d6560011b8bbd4fdd69a57fc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/plants/redTree/editableMaterial/grassMaterial.001.mat using Guid(d60f0f5d6560011b8bbd4fdd69a57fc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be2ec3ee7a87f06b0e8de04b06e06e8a') in 0.390682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AssetsStore/diningRoom/diningRoom/models/tableCenter/vases/editableMaterial/greyTableCenterMaterial.mat
+  artifactKey: Guid(992bd684c76e3fbed92c5243a961f5d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetsStore/diningRoom/diningRoom/models/tableCenter/vases/editableMaterial/greyTableCenterMaterial.mat using Guid(992bd684c76e3fbed92c5243a961f5d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8345013f02b34a65406e70ad614b6674') in 0.216361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Prefabs/Food/Vape/vape-015-obj/textures/vape-015_specurlar-specular-4k.png
+  artifactKey: Guid(ce29abc0ef1f2ee40a87445a2d1de8cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Food/Vape/vape-015-obj/textures/vape-015_specurlar-specular-4k.png using Guid(ce29abc0ef1f2ee40a87445a2d1de8cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e7646c7f1b8c2ed323d03129ef14bed') in 0.046553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/animation/male/m_run_rm.FBX
+  artifactKey: Guid(563e19776704bd24084efbcf368006ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/animation/male/m_run_rm.FBX using Guid(563e19776704bd24084efbcf368006ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2cdda3acc5d4b4092f54c1744fb85aff') in 0.168531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

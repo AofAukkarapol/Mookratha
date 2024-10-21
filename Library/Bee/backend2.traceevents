@@ -1,0 +1,292 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1728615848750352, "dur":25508, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728615848775867, "dur":70, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728615848775960, "dur":427, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728615848776403, "dur":2184, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728615848778589, "dur":8481079, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728615857259669, "dur":281, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728615857260087, "dur":5350, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1728615848776514, "dur":2094, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728615848778611, "dur":689, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728615848779301, "dur":3226, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728615848782528, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1728615848959627, "dur":12632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1728615848972316, "dur":19987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728615848992362, "dur":24696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728615849017120, "dur":29440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728615849046605, "dur":134598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728615849181262, "dur":22518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728615849203846, "dur":239236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728615849443190, "dur":22022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728615849465290, "dur":765792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1728615850231108, "dur":7028650, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728615848776549, "dur":2074, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728615848778625, "dur":168, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728615848778793, "dur":468, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728615848779261, "dur":3044, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728615848782313, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1728615848782306, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Mookratha_OPHDay2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1728615848858435, "dur":103025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1728615848961518, "dur":16578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728615848978143, "dur":16111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728615848994295, "dur":22068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728615849016432, "dur":9606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728615849026055, "dur":17712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728615849043787, "dur":121851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728615849165684, "dur":19412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728615849185155, "dur":21366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728615849206712, "dur":77, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728615849206792, "dur":238576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728615849445473, "dur":416406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728615849861935, "dur":7397715, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728615848776508, "dur":2094, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728615848778605, "dur":607, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728615848779212, "dur":3500, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728615848782712, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1728615849017094, "dur":8040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1728615849025262, "dur":86534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728615849111822, "dur":65515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728615849177383, "dur":17133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728615849194590, "dur":96699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728615849291356, "dur":162854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728615849454297, "dur":587445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1728615850041750, "dur":7217894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728615848776484, "dur":2112, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728615848778599, "dur":3700, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728615848788576, "dur":1677, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":4, "ts":1728615848790256, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1728615848790351, "dur":10387, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1728615848800740, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1728615848800937, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player0209563b-inputdata.json" }}
+,{ "pid":12345, "tid":4, "ts":1728615848790256, "dur":10792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1728615848804495, "dur":158971, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1728615848965869, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1728615848965868, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Mookratha_OPHDay2/Mookratha_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1728615848965952, "dur":20088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1728615848986055, "dur":9653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728615848995753, "dur":22712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728615849018545, "dur":28019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728615849046602, "dur":126491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728615849173154, "dur":21397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728615849194658, "dur":232635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728615849427345, "dur":26697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728615849454077, "dur":3995853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1728615853449941, "dur":3809727, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728615848776603, "dur":2114, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728615848778718, "dur":470, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728615848779189, "dur":3404, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728615848782594, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1728615849428551, "dur":16696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1728615849445297, "dur":596415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1728615850041811, "dur":7217851, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728615848776573, "dur":2054, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728615848778629, "dur":667, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728615848779296, "dur":3458, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728615848782759, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1728615848782755, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1728615849166738, "dur":11217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1728615849198617, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728615849177999, "dur":20712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1728615849198838, "dur":244346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1728615849443337, "dur":143444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1728615849586996, "dur":753828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1728615850340832, "dur":6918944, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728615848776541, "dur":2073, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728615848778616, "dur":807, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728615848779424, "dur":3232, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728615848782671, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":7, "ts":1728615848782656, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1728615848988830, "dur":6946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1728615848995817, "dur":21259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1728615849017130, "dur":13267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1728615849030415, "dur":81384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1728615849111821, "dur":66126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1728615849177983, "dur":20631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1728615849198701, "dur":231968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1728615849430787, "dur":23271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1728615849454109, "dur":886693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1728615850340815, "dur":6918860, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728615848776623, "dur":2386, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728615848779011, "dur":283, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728615848779294, "dur":3010, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728615848782478, "dur":277, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\New folder\\Mookratha\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1728615848782756, "dur":338, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\New folder\\Mookratha\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1728615848783178, "dur":243, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\New folder\\Mookratha\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1728615848783532, "dur":227, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\New folder\\Mookratha\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1728615848783793, "dur":415, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\New folder\\Mookratha\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1728615848784209, "dur":193, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\New folder\\Mookratha\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":8, "ts":1728615848784434, "dur":353, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\New folder\\Mookratha\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1728615848784788, "dur":167, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\New folder\\Mookratha\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1728615848784986, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\New folder\\Mookratha\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1728615848785078, "dur":617, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\New folder\\Mookratha\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1728615848785729, "dur":438, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\New folder\\Mookratha\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1728615848786244, "dur":196, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\New folder\\Mookratha\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1728615848782306, "dur":4213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":8, "ts":1728615849526689, "dur":7727670, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":8, "ts":1728615857257401, "dur":2174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":9, "ts":1728615848776647, "dur":2414, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1728615848779089, "dur":3547, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1728615848782637, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1728615849200439, "dur":22927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1728615849223468, "dur":224453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1728615849447972, "dur":413781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1728615849861810, "dur":7397855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1728615848776678, "dur":2417, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1728615848779095, "dur":3532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1728615848782633, "dur":226, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1728615848782627, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1728615849184845, "dur":13657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1728615849198593, "dur":228683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1728615849427345, "dur":25539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1728615849452947, "dur":887858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1728615850340815, "dur":6918873, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728615848776702, "dur":2398, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728615848779100, "dur":3400, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728615848782505, "dur":133, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1728615848782500, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1728615848961669, "dur":16401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1728615848978115, "dur":16378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1728615848994541, "dur":22487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1728615849017121, "dur":19600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1728615849036736, "dur":133443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1728615849170199, "dur":14444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1728615849184706, "dur":18466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1728615849203234, "dur":238528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1728615849441824, "dur":248688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1728615849690597, "dur":534252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1728615850224861, "dur":7034831, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1728615848776730, "dur":2379, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1728615848779109, "dur":3353, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1728615848782462, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1728615848826671, "dur":24406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1728615848858405, "dur":111667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1728615848970132, "dur":22225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1728615848992421, "dur":24582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1728615849017047, "dur":13255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1728615849030319, "dur":16159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/CFXRDemo.dll" }}
+,{ "pid":12345, "tid":12, "ts":1728615849046496, "dur":123717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1728615849170239, "dur":14506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1728615849184793, "dur":18950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1728615849203819, "dur":229972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1728615849433856, "dur":20308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1728615849454214, "dur":587325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1728615850041552, "dur":7218094, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1728615848776753, "dur":2362, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1728615848779116, "dur":3302, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1728615848782419, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1728615848804486, "dur":5192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1728615848809714, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1728615848810538, "dur":19124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1728615848829724, "dur":45875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha.exe" }}
+,{ "pid":12345, "tid":13, "ts":1728615848875623, "dur":88299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1728615848963978, "dur":22354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":13, "ts":1728615848986388, "dur":9397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":13, "ts":1728615848995829, "dur":21305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":13, "ts":1728615849017153, "dur":19511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":13, "ts":1728615849036680, "dur":89966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/CFXRRuntime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1728615849126667, "dur":58376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1728615849185092, "dur":18695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1728615849203840, "dur":241448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1728615849445358, "dur":416484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1728615849861868, "dur":7397795, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728615848776773, "dur":2454, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728615848779227, "dur":3426, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728615848782654, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1728615848986577, "dur":8468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1728615849018454, "dur":107, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728615848995093, "dur":23505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1728615849018633, "dur":27967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":14, "ts":1728615849046624, "dur":129905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1728615849176588, "dur":17948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1728615849194599, "dur":96698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1728615849291357, "dur":153893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1728615849445346, "dur":325912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1728615849771317, "dur":7488346, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1728615848776793, "dur":2441, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1728615848779235, "dur":3330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1728615848782574, "dur":261, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":15, "ts":1728615848782566, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1728615849176029, "dur":5435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1728615849181512, "dur":18595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1728615849200163, "dur":233593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1728615849433836, "dur":31396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1728615849465289, "dur":733368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/resources.assets" }}
+,{ "pid":12345, "tid":15, "ts":1728615850198669, "dur":7061092, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1728615848776815, "dur":2426, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1728615848779242, "dur":3262, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1728615848782505, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1728615849046526, "dur":123681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1728615849170300, "dur":24293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1728615849194655, "dur":10114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1728615849204814, "dur":238403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1728615849443343, "dur":143702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1728615849587120, "dur":753696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1728615850340827, "dur":6918855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1728615848776840, "dur":2408, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1728615848779248, "dur":3183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1728615848782437, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":17, "ts":1728615848782431, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":17, "ts":1728615848807384, "dur":4613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":17, "ts":1728615848812026, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":17, "ts":1728615848812024, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Mookratha_OPHDay2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":17, "ts":1728615848812254, "dur":147391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":17, "ts":1728615848959726, "dur":15662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":17, "ts":1728615848975433, "dur":16915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":17, "ts":1728615848992393, "dur":18291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":17, "ts":1728615849010740, "dur":7670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":17, "ts":1728615849018427, "dur":28130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":17, "ts":1728615849046582, "dur":131224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":17, "ts":1728615849177846, "dur":20659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1728615849198608, "dur":232120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1728615849430790, "dur":22098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1728615849452938, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":17, "ts":1728615849452937, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Mookratha_OPHDay2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":17, "ts":1728615849453032, "dur":1316577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":17, "ts":1728615850769664, "dur":6490153, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1728615848776863, "dur":2391, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1728615848779254, "dur":3092, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1728615848782347, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":18, "ts":1728615848997002, "dur":19364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":18, "ts":1728615849016430, "dur":11353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":18, "ts":1728615849027798, "dur":18755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":18, "ts":1728615849046581, "dur":130744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":18, "ts":1728615849177350, "dur":17224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1728615849194653, "dur":10101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1728615849204799, "dur":238252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1728615849443127, "dur":28028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1728615849471233, "dur":709116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/level0.resS" }}
+,{ "pid":12345, "tid":18, "ts":1728615850180362, "dur":7079338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1728615848776883, "dur":2377, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1728615848779260, "dur":3047, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1728615848782317, "dur":455, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":19, "ts":1728615848782308, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":19, "ts":1728615849028642, "dur":83148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":19, "ts":1728615849111883, "dur":69410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1728615849181511, "dur":20958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1728615849202554, "dur":240607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1728615849443213, "dur":83525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1728615849526912, "dur":554474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/level0" }}
+,{ "pid":12345, "tid":19, "ts":1728615850081400, "dur":7178248, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1728615848776905, "dur":2358, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1728615848779263, "dur":3040, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1728615848787561, "dur":9882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/app.info" }}
+,{ "pid":12345, "tid":20, "ts":1728615848797446, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":20, "ts":1728615848805574, "dur":4509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":20, "ts":1728615848810121, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":20, "ts":1728615848810120, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Mookratha_OPHDay2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":20, "ts":1728615848811727, "dur":37543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":20, "ts":1728615848849314, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Mookratha_OPHDay2/Mookratha_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":20, "ts":1728615848856784, "dur":99242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":20, "ts":1728615848956096, "dur":30496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":20, "ts":1728615848986643, "dur":13890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":20, "ts":1728615849000607, "dur":17932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":20, "ts":1728615849018564, "dur":25217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/KinoBloom.Runtime.dll" }}
+,{ "pid":12345, "tid":20, "ts":1728615849043797, "dur":121845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":20, "ts":1728615849165681, "dur":20330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1728615849186072, "dur":20244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1728615849206380, "dur":236750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1728615849443186, "dur":22022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1728615849465291, "dur":616064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Mookratha_OPHDay2/Mookratha_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":20, "ts":1728615850081377, "dur":7178403, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728615857273151, "dur":740, "ph":"X", "name": "ProfilerWriteOutput" }
+,
