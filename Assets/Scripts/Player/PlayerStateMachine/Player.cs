@@ -18,7 +18,6 @@ public class Player : MonoBehaviour
     public PlayerThrowState ThrowState { get; private set; }
     public PlayerGetHitState GetHitState { get; private set; }
 
-
     public Animator Anim { get; private set; }
     public PlayerInputHandler InputHandler { get; private set; }
     public Rigidbody RB { get; private set; }
@@ -32,7 +31,6 @@ public class Player : MonoBehaviour
     public bool isCanThrow { get; private set; }
     public bool isGetingHit { get; private set; }
     public bool isCanGetHit { get; private set; }
-
 
     public Vector3 facingDirection;
 
@@ -52,7 +50,9 @@ public class Player : MonoBehaviour
     public PostProcessingBehaviour PB;
     public PostProcessingProfile BluePP;
     public GameObject UIDeadGameObject;
-    
+
+    private float hitCooldown = 0.5f;
+    private float lastHitTime = -1f;
 
     private void Awake()
     {
@@ -73,39 +73,28 @@ public class Player : MonoBehaviour
         InputHandler = GetComponent<PlayerInputHandler>();
         RB = GetComponent<Rigidbody>();
 
-
         isCanHold = false;
         isHolding = false;
         isCanThrow = false;
 
-
         isCanGetHit = true;
         isGetingHit = false;
-
- 
-
-
-
 
         StateMachine.Initialize(IdleState);
     }
 
     private void Update()
     {
-
-       // Debug.Log("isCanHold :" + isCanHold);
+        // Debug.Log("isCanHold :" + isCanHold);
 
         if (this.transform.position.y <= -20)
         {
             Respawn();
         }
 
-
         StateMachine.CurrentState.LogicUpdate();
 
-
-        if(Input.GetKeyDown(KeyCode.R)) { SceneManager.LoadScene("Battle Arena Main 2 Greenscreen"); }
-
+        if (Input.GetKeyDown(KeyCode.R)) { SceneManager.LoadScene("Battle Arena Main 2 Greenscreen"); }
     }
 
     private void FixedUpdate()
@@ -115,8 +104,7 @@ public class Player : MonoBehaviour
 
     public void SetVeclocity(float velocity)
     {
-
-
+        // Add code to set player velocity here
     }
 
     public void SetIsDash(bool b) => isDashing = b;
@@ -124,10 +112,8 @@ public class Player : MonoBehaviour
     public void SetIsCanHold(bool b) => isCanHold = b;
     public void SetFinishedThrowTime(float f) => finishThrowTime = f;
 
-
     public void OnCollisionStay(Collision collision)
     {
-
         if (!isHolding)
         {
             if (collision.gameObject.tag == "food")
@@ -139,9 +125,6 @@ public class Player : MonoBehaviour
                 isCanHold = true;
             }
         }
-
-
-
     }
 
     public void OnCollisionExit(Collision collision)
@@ -157,9 +140,6 @@ public class Player : MonoBehaviour
                 // PickUp();
             }
         }
-
-
-
     }
 
     private void OnTriggerEnter(Collider other)
@@ -172,25 +152,18 @@ public class Player : MonoBehaviour
         if (other.gameObject.tag == "hitbox")
         {
             Debug.Log("HIT");
-            Instantiate(HitParticle,this.transform);
+            Instantiate(HitParticle, this.transform);
             SetIsGettingHit(true);
         }
-
-       
-
     }
 
     private void OnTriggerStay(Collider other)
     {
-
         if (other.gameObject.tag == "hitbox")
         {
             Debug.Log("Boom");
-            
             SetIsGettingHit(true);
         }
-
-       
     }
 
     public void Respawn()
@@ -205,16 +178,9 @@ public class Player : MonoBehaviour
             SetIsCanThrow(false);
         }
 
-
         transform.position = respawndPos.position;
         StateMachine.ChangeState(this.IdleState);
-
     }
-
-
-
-
-
 
     public void PickUp()
     {
@@ -230,19 +196,16 @@ public class Player : MonoBehaviour
             }
         }
 
-
         // item.transform.localPosition = Vector3.MoveTowards(item.transform.position, holdPosition.transform.position, 0.1f);
         // item.transform.position = holdPosition.transform.position;
-        //item.transform.localRotation = holdPosition.transform.localRotation;
-
-
+        // item.transform.localRotation = holdPosition.transform.localRotation;
     }
 
     public void SetIsHolding(bool b) => isHolding = b;
 
     public void Throw()
     {
-        if (isCanThrow && isHolding  )
+        if (isCanThrow && isHolding)
         {
             item.gameObject.tag = "food";
             item.gameObject.layer = LayerMask.NameToLayer("Food");
@@ -254,11 +217,7 @@ public class Player : MonoBehaviour
             itemRigibody.mass = 1000;
             isHolding = false;
             SetIsCanThrow(false);
-
         }
-       
- 
-     
     }
 
     public void Drop()
@@ -275,13 +234,17 @@ public class Player : MonoBehaviour
         }
     }
 
+
+
     public void Hit()
     {
-        Debug.Log("Hit recived");
-        SetIsGettingHit(true);
-    }
         
+            Debug.Log("Hit received");
 
+            
+            SetIsGettingHit(true);
+            
+    }
 
     public void HitBoxActive()
     {
@@ -290,8 +253,8 @@ public class Player : MonoBehaviour
 
     public void HitBoxUnActive() { HitBox.SetActive(false); }
 
-    public void SetIsGettingHit(bool b) => isGetingHit= b;
-    public void SetIsCanGetHit(bool b) => isCanGetHit= b;
+    public void SetIsGettingHit(bool b) => isGetingHit = b;
+    public void SetIsCanGetHit(bool b) => isCanGetHit = b;
 
     public void SetAbilityDone()
     {
@@ -303,16 +266,11 @@ public class Player : MonoBehaviour
     {
         Debug.Log("Set TIME ZERO");
         Time.timeScale = 0;
-        //PB.profile = BluePP;
-      if(UIDeadGameObject != null)
+        // PB.profile = BluePP;
+        if (UIDeadGameObject != null)
         {
             UIDeadGameObject.SetActive(true);
         }
-       
-    } 
+    }
     */
-
-
-
-  
 }

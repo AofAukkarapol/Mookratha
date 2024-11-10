@@ -46,6 +46,7 @@ public class PlayerDashState : PlayerAblilityState
         player.SetIsDash(false);
    
         base.Exit();
+        
     }
 
     public override void LogicUpdate()

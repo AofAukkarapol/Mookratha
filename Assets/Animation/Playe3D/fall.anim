@@ -7,7 +7,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: fall
-  serializedVersion: 6
+  serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -9584,6 +9584,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1081488258
       attribute: 2
@@ -9591,6 +9593,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1712613387
       attribute: 2
@@ -9598,6 +9602,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3975732562
       attribute: 2
@@ -9605,6 +9611,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3086906897
       attribute: 2
@@ -9612,6 +9620,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 901321314
       attribute: 2
@@ -9619,6 +9629,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2351943853
       attribute: 2
@@ -9626,6 +9638,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1036347279
       attribute: 2
@@ -9633,6 +9647,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1266566510
       attribute: 2
@@ -9640,6 +9656,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2995142654
       attribute: 2
@@ -9647,6 +9665,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2998937039
       attribute: 2
@@ -9654,6 +9674,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2574068965
       attribute: 2
@@ -9661,6 +9683,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1262448776
       attribute: 2
@@ -9668,6 +9692,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1582195631
       attribute: 2
@@ -9675,6 +9701,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3293449466
       attribute: 2
@@ -9682,6 +9710,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1557125038
       attribute: 2
@@ -9689,6 +9719,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 193027160
       attribute: 2
@@ -9696,6 +9728,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4083616323
       attribute: 2
@@ -9703,6 +9737,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 607589629
       attribute: 2
@@ -9710,6 +9746,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1464258273
       attribute: 2
@@ -9717,6 +9755,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3147524495
       attribute: 2
@@ -9724,6 +9764,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
@@ -9735,7 +9777,7 @@ AnimationClip:
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 0
+    m_LoopTime: 1
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0
@@ -9746,7 +9788,8 @@ AnimationClip:
     m_HeightFromFeet: 0
     m_Mirror: 0
   m_EditorCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10350,7 +10393,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10954,7 +10999,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11558,7 +11605,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11865,7 +11914,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12172,7 +12223,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12479,7 +12532,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12786,7 +12841,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13039,7 +13096,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13292,7 +13351,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13545,7 +13606,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13798,7 +13861,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14114,7 +14179,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14430,7 +14497,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14746,7 +14815,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -15062,7 +15133,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -15279,7 +15352,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_Spline_TopSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -15496,7 +15571,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_Spline_TopSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -15713,7 +15790,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_Spline_TopSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -15930,7 +16009,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_Spline_TopSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16318,7 +16399,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16706,7 +16789,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17094,7 +17179,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17482,7 +17569,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17996,7 +18085,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt/Dman_l_Arm_ShoulderSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18510,7 +18601,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt/Dman_l_Arm_ShoulderSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19024,7 +19117,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt/Dman_l_Arm_ShoulderSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19538,7 +19633,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt/Dman_l_Arm_ShoulderSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19971,7 +20068,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt/Dman_l_Arm_ShoulderSHJnt/Dman_l_Arm_ElbowSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20404,7 +20503,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt/Dman_l_Arm_ShoulderSHJnt/Dman_l_Arm_ElbowSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20837,7 +20938,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt/Dman_l_Arm_ShoulderSHJnt/Dman_l_Arm_ElbowSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -21270,7 +21373,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt/Dman_l_Arm_ShoulderSHJnt/Dman_l_Arm_ElbowSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -21820,7 +21925,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt/Dman_l_Arm_ShoulderSHJnt/Dman_l_Arm_ElbowSHJnt/Dman_l_Arm_WristSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -22370,7 +22477,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt/Dman_l_Arm_ShoulderSHJnt/Dman_l_Arm_ElbowSHJnt/Dman_l_Arm_WristSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -22920,7 +23029,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt/Dman_l_Arm_ShoulderSHJnt/Dman_l_Arm_ElbowSHJnt/Dman_l_Arm_WristSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -23470,7 +23581,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt/Dman_l_Arm_ShoulderSHJnt/Dman_l_Arm_ElbowSHJnt/Dman_l_Arm_WristSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -23759,7 +23872,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -24048,7 +24163,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -24337,7 +24454,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -24626,7 +24745,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -25185,7 +25306,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt/Dman_r_Arm_ShoulderSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -25744,7 +25867,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt/Dman_r_Arm_ShoulderSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -26303,7 +26428,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt/Dman_r_Arm_ShoulderSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -26862,7 +26989,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt/Dman_r_Arm_ShoulderSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -27340,7 +27469,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt/Dman_r_Arm_ShoulderSHJnt/Dman_r_Arm_ElbowSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -27818,7 +27949,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt/Dman_r_Arm_ShoulderSHJnt/Dman_r_Arm_ElbowSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -28296,7 +28429,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt/Dman_r_Arm_ShoulderSHJnt/Dman_r_Arm_ElbowSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -28774,7 +28909,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt/Dman_r_Arm_ShoulderSHJnt/Dman_r_Arm_ElbowSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -29360,7 +29497,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt/Dman_r_Arm_ShoulderSHJnt/Dman_r_Arm_ElbowSHJnt/Dman_r_Arm_WristSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -29946,7 +30085,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt/Dman_r_Arm_ShoulderSHJnt/Dman_r_Arm_ElbowSHJnt/Dman_r_Arm_WristSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -30532,7 +30673,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt/Dman_r_Arm_ShoulderSHJnt/Dman_r_Arm_ElbowSHJnt/Dman_r_Arm_WristSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -31118,7 +31261,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt/Dman_r_Arm_ShoulderSHJnt/Dman_r_Arm_ElbowSHJnt/Dman_r_Arm_WristSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -31713,7 +31858,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -32308,7 +32455,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -32903,7 +33052,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -33498,7 +33649,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -34057,7 +34210,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt/Dman_l_Leg_KneeSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -34616,7 +34771,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt/Dman_l_Leg_KneeSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -35175,7 +35332,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt/Dman_l_Leg_KneeSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -35734,7 +35893,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt/Dman_l_Leg_KneeSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -36374,7 +36535,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt/Dman_l_Leg_KneeSHJnt/Dman_l_Leg_AnkleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -37014,7 +37177,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt/Dman_l_Leg_KneeSHJnt/Dman_l_Leg_AnkleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -37654,7 +37819,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt/Dman_l_Leg_KneeSHJnt/Dman_l_Leg_AnkleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -38294,7 +38461,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt/Dman_l_Leg_KneeSHJnt/Dman_l_Leg_AnkleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -38601,7 +38770,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt/Dman_l_Leg_KneeSHJnt/Dman_l_Leg_AnkleSHJnt/Dman_l_Leg_BallSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -38908,7 +39079,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt/Dman_l_Leg_KneeSHJnt/Dman_l_Leg_AnkleSHJnt/Dman_l_Leg_BallSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -39215,7 +39388,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt/Dman_l_Leg_KneeSHJnt/Dman_l_Leg_AnkleSHJnt/Dman_l_Leg_BallSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -39522,7 +39697,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt/Dman_l_Leg_KneeSHJnt/Dman_l_Leg_AnkleSHJnt/Dman_l_Leg_BallSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -40045,7 +40222,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -40568,7 +40747,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -41091,7 +41272,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -41614,7 +41797,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -42155,7 +42340,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt/Dman_r_Leg_KneeSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -42696,7 +42883,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt/Dman_r_Leg_KneeSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -43237,7 +43426,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt/Dman_r_Leg_KneeSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -43778,7 +43969,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt/Dman_r_Leg_KneeSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -44364,7 +44557,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt/Dman_r_Leg_KneeSHJnt/Dman_r_Leg_AnkleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -44950,7 +45145,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt/Dman_r_Leg_KneeSHJnt/Dman_r_Leg_AnkleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -45536,7 +45733,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt/Dman_r_Leg_KneeSHJnt/Dman_r_Leg_AnkleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -46122,7 +46321,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt/Dman_r_Leg_KneeSHJnt/Dman_r_Leg_AnkleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -46492,7 +46693,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt/Dman_r_Leg_KneeSHJnt/Dman_r_Leg_AnkleSHJnt/Dman_r_Leg_BallSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -46862,7 +47065,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt/Dman_r_Leg_KneeSHJnt/Dman_r_Leg_AnkleSHJnt/Dman_r_Leg_BallSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -47232,7 +47437,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt/Dman_r_Leg_KneeSHJnt/Dman_r_Leg_AnkleSHJnt/Dman_r_Leg_BallSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -47602,8 +47809,10 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt/Dman_r_Leg_KneeSHJnt/Dman_r_Leg_AnkleSHJnt/Dman_r_Leg_BallSHJnt
     classID: 4
     script: {fileID: 0}
+    flags: 16
   m_EulerEditorCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -47910,7 +48119,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -48217,7 +48428,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -48524,7 +48737,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -48777,7 +48992,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -49030,7 +49247,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -49283,7 +49502,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -49599,7 +49820,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -49915,7 +50138,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -50231,7 +50456,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -50448,7 +50675,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_Spline_TopSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -50665,7 +50894,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_Spline_TopSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -50882,7 +51113,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_Spline_TopSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -51270,7 +51503,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -51658,7 +51893,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -52046,7 +52283,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -52560,7 +52799,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt/Dman_l_Arm_ShoulderSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -53074,7 +53315,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt/Dman_l_Arm_ShoulderSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -53588,7 +53831,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt/Dman_l_Arm_ShoulderSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -54021,7 +54266,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt/Dman_l_Arm_ShoulderSHJnt/Dman_l_Arm_ElbowSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -54454,7 +54701,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt/Dman_l_Arm_ShoulderSHJnt/Dman_l_Arm_ElbowSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -54887,7 +55136,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt/Dman_l_Arm_ShoulderSHJnt/Dman_l_Arm_ElbowSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -55437,7 +55688,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt/Dman_l_Arm_ShoulderSHJnt/Dman_l_Arm_ElbowSHJnt/Dman_l_Arm_WristSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -55987,7 +56240,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt/Dman_l_Arm_ShoulderSHJnt/Dman_l_Arm_ElbowSHJnt/Dman_l_Arm_WristSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -56537,7 +56792,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_l_Arm_ClavicleSHJnt/Dman_l_Arm_ShoulderSHJnt/Dman_l_Arm_ElbowSHJnt/Dman_l_Arm_WristSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -56826,7 +57083,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -57115,7 +57374,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -57404,7 +57665,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -57963,7 +58226,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt/Dman_r_Arm_ShoulderSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -58522,7 +58787,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt/Dman_r_Arm_ShoulderSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -59081,7 +59348,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt/Dman_r_Arm_ShoulderSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -59559,7 +59828,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt/Dman_r_Arm_ShoulderSHJnt/Dman_r_Arm_ElbowSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -60037,7 +60308,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt/Dman_r_Arm_ShoulderSHJnt/Dman_r_Arm_ElbowSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -60515,7 +60788,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt/Dman_r_Arm_ShoulderSHJnt/Dman_r_Arm_ElbowSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -61101,7 +61376,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt/Dman_r_Arm_ShoulderSHJnt/Dman_r_Arm_ElbowSHJnt/Dman_r_Arm_WristSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -61687,7 +61964,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt/Dman_r_Arm_ShoulderSHJnt/Dman_r_Arm_ElbowSHJnt/Dman_r_Arm_WristSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -62273,7 +62552,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_Spline_01SHJnt/Dman_Spline_02SHJnt/Dman_r_Arm_ClavicleSHJnt/Dman_r_Arm_ShoulderSHJnt/Dman_r_Arm_ElbowSHJnt/Dman_r_Arm_WristSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -62868,7 +63149,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -63463,7 +63746,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -64058,7 +64343,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -64617,7 +64904,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt/Dman_l_Leg_KneeSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -65176,7 +65465,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt/Dman_l_Leg_KneeSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -65735,7 +66026,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt/Dman_l_Leg_KneeSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -66375,7 +66668,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt/Dman_l_Leg_KneeSHJnt/Dman_l_Leg_AnkleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -67015,7 +67310,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt/Dman_l_Leg_KneeSHJnt/Dman_l_Leg_AnkleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -67655,7 +67952,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt/Dman_l_Leg_KneeSHJnt/Dman_l_Leg_AnkleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -67962,7 +68261,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt/Dman_l_Leg_KneeSHJnt/Dman_l_Leg_AnkleSHJnt/Dman_l_Leg_BallSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -68269,7 +68570,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt/Dman_l_Leg_KneeSHJnt/Dman_l_Leg_AnkleSHJnt/Dman_l_Leg_BallSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -68576,7 +68879,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_l_Leg_HipSHJnt/Dman_l_Leg_KneeSHJnt/Dman_l_Leg_AnkleSHJnt/Dman_l_Leg_BallSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -69099,7 +69404,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -69622,7 +69929,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -70145,7 +70454,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -70686,7 +70997,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt/Dman_r_Leg_KneeSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -71227,7 +71540,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt/Dman_r_Leg_KneeSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -71768,7 +72083,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt/Dman_r_Leg_KneeSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -72354,7 +72671,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt/Dman_r_Leg_KneeSHJnt/Dman_r_Leg_AnkleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -72940,7 +73259,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt/Dman_r_Leg_KneeSHJnt/Dman_r_Leg_AnkleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -73526,7 +73847,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt/Dman_r_Leg_KneeSHJnt/Dman_r_Leg_AnkleSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -73896,7 +74219,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt/Dman_r_Leg_KneeSHJnt/Dman_r_Leg_AnkleSHJnt/Dman_r_Leg_BallSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -74266,7 +74591,9 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt/Dman_r_Leg_KneeSHJnt/Dman_r_Leg_AnkleSHJnt/Dman_r_Leg_BallSHJnt
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -74636,6 +74963,7 @@ AnimationClip:
     path: Dman_ROOTSHJnt/Dman_r_Leg_HipSHJnt/Dman_r_Leg_KneeSHJnt/Dman_r_Leg_AnkleSHJnt/Dman_r_Leg_BallSHJnt
     classID: 4
     script: {fileID: 0}
+    flags: 16
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:

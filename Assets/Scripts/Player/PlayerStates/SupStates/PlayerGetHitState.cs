@@ -17,6 +17,7 @@ public class PlayerGetHitState : PlayerAblilityState
     {
         base.Enter();
         player.Drop();
+        player.HitBoxUnActive();
     }
 
     public override void Exit()
@@ -24,6 +25,7 @@ public class PlayerGetHitState : PlayerAblilityState
         base.Exit();
         player.SetIsCanGetHit(true);
         player.SetIsGettingHit(false);
+        
     }
 
     public override void LogicUpdate()
