@@ -102,6 +102,10 @@ public class Player : MonoBehaviour
         StateMachine.CurrentState.PhysicsUpdate();
     }
 
+    public void PlaySound(AudioSource sound){
+        sound.Play();
+    }
+
     public void SetVeclocity(float velocity)
     {
         // Add code to set player velocity here
