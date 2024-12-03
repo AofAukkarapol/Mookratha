@@ -3,9 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using UnityEngine;
+using System;
 
 public class FoodBoomController : MonoBehaviour
 {
+    public static event Action BoomSoundSend;
     public Material[] meterial;
     Renderer renderer;
 
@@ -35,8 +37,8 @@ public class FoodBoomController : MonoBehaviour
     [Header("Food Effects")]
     public GameObject boomEffect;
     public float boomTime;
-    
-    
+
+
     public float foodStage;
     public float foodPoint;
 
@@ -44,19 +46,22 @@ public class FoodBoomController : MonoBehaviour
     public float inJarnBeforeDestroyTime = 5f;
 
 
-
-  
-
     public bool isInJarn;
+
+
+    public AudioSource boomSound;
+    public GameObject BoomSound;
+    public AudioClip boomSoundClip;
+
 
 
     private void Start()
     {
-        renderer= GetComponent<Renderer>();
-        renderer.enabled= true;
+        renderer = GetComponent<Renderer>();
+        renderer.enabled = true;
         renderer.sharedMaterial = meterial[0];
 
-      
+
 
         isInJarn = false;
     }
@@ -71,7 +76,7 @@ public class FoodBoomController : MonoBehaviour
 
         if (isInJarn)
         {
-           
+
 
             if (Time.time > startTime + inJarnBeforeDestroyTime)
             {
@@ -83,26 +88,28 @@ public class FoodBoomController : MonoBehaviour
         foodPoint = RawPoint;
         foodStage = RawSetHealth;
 
-        
+
 
         if (cookLevel >= 40)
         {
             renderer.sharedMaterial = meterial[1];
         }
 
-        if(cookLevel.Equals(cookLevelMax)) burnLevel = Mathf.MoveTowards(burnLevel, burnLevelMax, burnRate * Time.deltaTime);
+        if (cookLevel.Equals(cookLevelMax)) burnLevel = Mathf.MoveTowards(burnLevel, burnLevelMax, burnRate * Time.deltaTime);
 
-       // Debug.Log("Cook Level : " + cookLevel);
+        // Debug.Log("Cook Level : " + cookLevel);
         if (cookLevel >= 60)
 
         {
             this.transform.parent = null;
             boomEffect.SetActive(true);
-
+                Debug.Log("Berd");
+                PlayBoomSound();
+            
 
         }
 
-        if (cookLevel >= 65) 
+        if (cookLevel >= 65)
         {
             boomEffect.SetActive(false);
             Destroy(this.gameObject);
@@ -121,6 +128,13 @@ public class FoodBoomController : MonoBehaviour
         */
     }
 
+    public void PlayBoomSound()
+    {
+        BoomSoundSend?.Invoke();
+        boomSound.Play();
+        
+    }
+
     public void IncreaseCookLevel()
     {
         cookLevel = Mathf.MoveTowards(cookLevel, cookLevelMax, cookRate * Time.deltaTime);
@@ -128,9 +142,9 @@ public class FoodBoomController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "jarn")
+        if (other.gameObject.tag == "jarn")
         {
-            isInJarn= true;
+            isInJarn = true;
             startTime = Time.time;
             other.SendMessage("EatFood", foodPoint);
             other.SendMessage("EatFoodSetHealth", foodStage);

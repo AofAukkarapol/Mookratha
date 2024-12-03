@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -51,6 +52,11 @@ public class Player : MonoBehaviour
     public PostProcessingProfile BluePP;
     public GameObject UIDeadGameObject;
 
+    public AudioSource fallSound;
+    public AudioSource throwSound;
+    public AudioSource hitSound;
+    public AudioSource pickSound;
+
     private float hitCooldown = 0.5f;
     private float lastHitTime = -1f;
 
@@ -102,9 +108,6 @@ public class Player : MonoBehaviour
         StateMachine.CurrentState.PhysicsUpdate();
     }
 
-    public void PlaySound(AudioSource sound){
-        sound.Play();
-    }
 
     public void SetVeclocity(float velocity)
     {
@@ -156,8 +159,10 @@ public class Player : MonoBehaviour
         if (other.gameObject.tag == "hitbox")
         {
             Debug.Log("HIT");
+            PlayFallSound();
             Instantiate(HitParticle, this.transform);
             SetIsGettingHit(true);
+            
         }
     }
 
@@ -166,6 +171,7 @@ public class Player : MonoBehaviour
         if (other.gameObject.tag == "hitbox")
         {
             Debug.Log("Boom");
+            
             SetIsGettingHit(true);
         }
     }
@@ -192,6 +198,7 @@ public class Player : MonoBehaviour
         {
             if (item.gameObject.tag == "food")
             {
+                PlayPickUpSound();
                 item.gameObject.tag = "foodUnholdable";
                 item.gameObject.layer = LayerMask.NameToLayer("FoodUnholdable");
                 item.transform.position += new Vector3(0, 0.8f, 0);
@@ -211,12 +218,14 @@ public class Player : MonoBehaviour
     {
         if (isCanThrow && isHolding)
         {
+            PlayThrowSound();
             item.gameObject.tag = "food";
             item.gameObject.layer = LayerMask.NameToLayer("Food");
             itemRigibody = item.AddComponent<Rigidbody>();
-
+            
             itemRigibody.AddForce(playerData.throwForceXZ * this.transform.forward.x, playerData.throwForceY, playerData.throwForceXZ * this.transform.forward.z);
 
+           
             item.transform.parent = null;
             itemRigibody.mass = 1000;
             isHolding = false;
@@ -244,15 +253,17 @@ public class Player : MonoBehaviour
     {
         
             Debug.Log("Hit received");
-
+            
             
             SetIsGettingHit(true);
+            
             
     }
 
     public void HitBoxActive()
     {
         HitBox.SetActive(true);
+        
     }
 
     public void HitBoxUnActive() { HitBox.SetActive(false); }
@@ -264,6 +275,23 @@ public class Player : MonoBehaviour
     {
         GetHitState.SetIsAbilityDone(true);
     }
+/*------------------------------------------- Sound ---------------------------------------------------*/
+    public void PlayFallSound(){
+        fallSound.Play();
+    }
+
+    public void PlayThrowSound(){
+        throwSound.Play();
+    }
+
+    public void PlayHitSound(){
+        hitSound.Play();
+    }
+    
+    public void PlayPickUpSound(){
+        pickSound.Play();
+    }
+/*----------------------------------------------------------------------------------------------------------*/
 
     /*
     public void SetTimeScaleZero()

@@ -152,6 +152,7 @@
     <Compile Include="Assets\Scripts\Player\PlayerStates\SupStates\PlayerHoldingState.cs" />
     <Compile Include="Assets\Scripts\Player\Data\PlayerData.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\AudioController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
@@ -168,6 +169,7 @@
     <Compile Include="Assets\PostProcessing\Runtime\Models\BloomModel.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\FogComponent.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\Scripts\Jarn\SoundSpriteController.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\test.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />

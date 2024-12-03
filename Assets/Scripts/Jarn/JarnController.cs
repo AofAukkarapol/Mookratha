@@ -25,6 +25,7 @@ public class JarnController : MonoBehaviour
 
     private bool isDead = false;
 
+    public AudioSource eatfoodSound;
 
     private void Start()
     {
@@ -73,7 +74,9 @@ public class JarnController : MonoBehaviour
         }
     }
     */
-
+    public void PlayEatFoodSound(){
+        eatfoodSound.Play();
+    }
 
     public void EatFood(float foodPoint)
     {
@@ -82,6 +85,7 @@ public class JarnController : MonoBehaviour
         if(!isDead)
         {
             currentPoint += foodPoint;
+            PlayEatFoodSound();
         }
       
     }
